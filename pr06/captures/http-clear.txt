@@ -1,0 +1,156 @@
+21:57:48.331849 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [S], seq 4186331098, win 65495, options [mss 65495,sackOK,TS val 1567723566 ecr 0,nop,wscale 7], length 0
+E..<.T@.@.be.........x....W..........0.........
+]q..........
+21:57:48.331857 IP 127.0.0.1.8080 > 127.0.0.1.58232: Flags [S.], seq 3403155814, ack 4186331099, win 65483, options [mss 65495,sackOK,TS val 1567723566 ecr 1567723566,nop,wscale 7], length 0
+E..<..@.@.<............x..	f..W......0.........
+]q..]q......
+21:57:48.331865 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 1567723566 ecr 1567723566], length 0
+E..4.U@.@.bl.........x....W...	g.....(.....
+]q..]q..
+21:57:48.331909 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [P.], seq 1:80, ack 1, win 512, options [nop,nop,TS val 1567723566 ecr 1567723566], length 79: HTTP: POST / HTTP/1.1
+E....V@.@.b..........x....W...	g.....w.....
+]q..]q..POST / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.88.1
+Accept: */*
+
+
+21:57:48.331911 IP 127.0.0.1.8080 > 127.0.0.1.58232: Flags [.], ack 80, win 511, options [nop,nop,TS val 1567723566 ecr 1567723566], length 0
+E..4..@.@../...........x..	g..X*.....(.....
+]q..]q..
+21:57:48.332691 IP 127.0.0.1.8080 > 127.0.0.1.58232: Flags [P.], seq 1:199, ack 80, win 512, options [nop,nop,TS val 1567723567 ecr 1567723566], length 198: HTTP: HTTP/1.0 501 Unsupported method ('POST')
+E.....@.@..h...........x..	g..X*...........
+]q./]q..HTTP/1.0 501 Unsupported method ('POST')
+Server: SimpleHTTP/0.6 Python/3.11.2
+Date: Sun, 24 May 2026 16:57:48 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 357
+
+
+21:57:48.332697 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [.], ack 199, win 511, options [nop,nop,TS val 1567723567 ecr 1567723567], length 0
+E..4.W@.@.bj.........x....X*..
+-.....(.....
+]q./]q./
+21:57:48.332731 IP 127.0.0.1.8080 > 127.0.0.1.58232: Flags [P.], seq 199:556, ack 80, win 512, options [nop,nop,TS val 1567723567 ecr 1567723567], length 357: HTTP
+E.....@.@..............x..
+-..X*...........
+]q./]q./<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 501</p>
+        <p>Message: Unsupported method ('POST').</p>
+        <p>Error code explanation: 501 - Server does not support this operation.</p>
+    </body>
+</html>
+
+21:57:48.332734 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [.], ack 556, win 509, options [nop,nop,TS val 1567723567 ecr 1567723567], length 0
+E..4.X@.@.bi.........x....X*.........(.....
+]q./]q./
+21:57:48.332862 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [F.], seq 80, ack 556, win 512, options [nop,nop,TS val 1567723567 ecr 1567723567], length 0
+E..4.Y@.@.bh.........x....X*.........(.....
+]q./]q./
+21:57:48.333568 IP 127.0.0.1.8080 > 127.0.0.1.58232: Flags [F.], seq 556, ack 81, win 512, options [nop,nop,TS val 1567723568 ecr 1567723567], length 0
+E..4..@.@..,...........x......X+.....(.....
+]q.0]q./
+21:57:48.333576 IP 127.0.0.1.58232 > 127.0.0.1.8080: Flags [.], ack 557, win 512, options [nop,nop,TS val 1567723568 ecr 1567723568], length 0
+E..4.Z@.@.bg.........x....X+.........(.....
+]q.0]q.0
+22:00:13.110043 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [S], seq 1764265141, win 65495, options [mss 65495,sackOK,TS val 1567868344 ecr 0,nop,wscale 7], length 0
+E..<tb@.@..W.........V..i(...........0.........
+]s..........
+22:00:13.110052 IP 127.0.0.1.8080 > 127.0.0.1.56918: Flags [S.], seq 1668779527, ack 1764265142, win 65483, options [mss 65495,sackOK,TS val 1567868344 ecr 1567868344,nop,wscale 7], length 0
+E..<..@.@.<............Vcw..i(.......0.........
+]s..]s......
+22:00:13.110058 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 1567868344 ecr 1567868344], length 0
+E..4tc@.@..^.........V..i(..cw.......(.....
+]s..]s..
+22:00:13.110101 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [P.], seq 1:237, ack 1, win 512, options [nop,nop,TS val 1567868345 ecr 1567868344], length 236: HTTP: POST / HTTP/1.1
+E.. td@.@..q.........V..i(..cw.............
+]s..]s..POST / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.88.1
+Accept: */*
+Authorization: Basic dmFzeWE6TXlQYXNzx9yZDIwMjQ=
+Content-Length: 38
+Content-Type: application/x-www-form-urlencoded
+
+username=vasya&password=MyPassword2024
+22:00:13.110103 IP 127.0.0.1.8080 > 127.0.0.1.56918: Flags [.], ack 237, win 510, options [nop,nop,TS val 1567868345 ecr 1567868345], length 0
+E..4..@.@.I............Vcw..i(.......(.....
+]s..]s..
+22:00:13.110776 IP 127.0.0.1.8080 > 127.0.0.1.56918: Flags [P.], seq 1:199, ack 237, win 512, options [nop,nop,TS val 1567868345 ecr 1567868345], length 198: HTTP: HTTP/1.0 501 Unsupported method ('POST')
+E.....@.@.H=...........Vcw..i(.............
+]s..]s..HTTP/1.0 501 Unsupported method ('POST')
+Server: SimpleHTTP/0.6 Python/3.11.2
+Date: Sun, 24 May 2026 17:00:13 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 357
+
+
+22:00:13.110783 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [.], ack 199, win 511, options [nop,nop,TS val 1567868345 ecr 1567868345], length 0
+E..4te@.@..\.........V..i(..cw.......(.....
+]s..]s..
+22:00:13.110818 IP 127.0.0.1.8080 > 127.0.0.1.56918: Flags [P.], seq 199:556, ack 237, win 512, options [nop,nop,TS val 1567868345 ecr 1567868345], length 357: HTTP
+E.....@.@.G............Vcw..i(.............
+]s..]s..<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 501</p>
+        <p>Message: Unsupported method ('POST').</p>
+        <p>Error code explanation: 501 - Server does not support this operation.</p>
+    </body>
+</html>
+
+22:00:13.110821 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [.], ack 556, win 509, options [nop,nop,TS val 1567868345 ecr 1567868345], length 0
+E..4tf@.@..[.........V..i(..cw.3.....(.....
+]s..]s..
+22:00:13.110887 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [F.], seq 237, ack 556, win 512, options [nop,nop,TS val 1567868345 ecr 1567868345], length 0
+E..4tg@.@..Z.........V..i(..cw.3.....(.....
+]s..]s..
+22:00:13.111798 IP 127.0.0.1.8080 > 127.0.0.1.56918: Flags [F.], seq 556, ack 238, win 512, options [nop,nop,TS val 1567868346 ecr 1567868345], length 0
+E..4..@.@.I............Vcw.3i(.......(.....
+]s..]s..
+22:00:13.111808 IP 127.0.0.1.56918 > 127.0.0.1.8080: Flags [.], ack 557, win 512, options [nop,nop,TS val 1567868346 ecr 1567868346], length 0
+E..4th@.@..Y.........V..i(..cw.4.....(.....
+]s..]s..
+22:06:22.574751 IP 127.0.0.1.47520 > 127.0.0.1.8080: Flags [S], seq 1877778671, win 65495, options [mss 65495,sackOK,TS val 1568237809 ecr 0,nop,wscale 7], length 0
+E..<ky@.@..@............o............0.........
+]yh.........
+22:06:22.574761 IP 127.0.0.1.8080 > 127.0.0.1.47520: Flags [S.], seq 316198196, ack 1877778672, win 65483, options [mss 65495,sackOK,TS val 1568237809 ecr 1568237809,nop,wscale 7], length 0
+E..<..@.@.<................4o........0.........
+]yh.]yh.....
+22:06:22.574768 IP 127.0.0.1.47520 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 1568237809 ecr 1568237809], length 0
+E..4kz@.@..G............o......5.....(.....
+]yh.]yh.
+22:06:22.575131 IP 127.0.0.1.47520 > 127.0.0.1.8080: Flags [P.], seq 1:79, ack 1, win 512, options [nop,nop,TS val 1568237810 ecr 1568237809], length 78: HTTP: GET / HTTP/1.1
+E...k{@.@...............o......5.....v.....
+]yh.]yh.GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.88.1
+Accept: */*
+
+
+22:06:22.575135 IP 127.0.0.1.8080 > 127.0.0.1.47520: Flags [.], ack 79, win 511, options [nop,nop,TS val 1568237810 ecr 1568237810], length 0
+E..4..@.@.g-...............5o..>.....(.....
+]yh.]yh.
+22:06:22.575884 IP 127.0.0.1.8080 > 127.0.0.1.47520: Flags [P.], seq 1:157, ack 79, win 512, options [nop,nop,TS val 1568237810 ecr 1568237810], length 156: HTTP: HTTP/1.0 200 OK
+E.....@.@.f................5o..>...........
+]yh.]yh.HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.11.2
+Date: Sun, 24 May 2026 17:06:22 GMT
+Content-type: text/html; charset=utf-8
+Content-Length: 2769
+
+
