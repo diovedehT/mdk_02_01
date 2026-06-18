@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install licensee
-        run: gem install licensee
+        run: sudo gem install licensee
 
       - name: Detect license
         run: |
