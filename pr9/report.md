@@ -1,4 +1,9 @@
-# ПР №10. Лицензирование и open-source compliance
+<!--
+SPDX-FileCopyrightText: 2026 Milana
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# ПР №9. Лицензирование и open-source compliance
 
 ## 1. Выбор лицензии
 
