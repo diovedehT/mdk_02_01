@@ -38,8 +38,10 @@ LICENSE:
 Пример заголовка который добавили в файл (pr10/report.md):
 
 ```
+
 <!--
 SPDX-FileCopyrightText: 2026 Milana
+
 SPDX-License-Identifier: Apache-2.0
 -->
 ```

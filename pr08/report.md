@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Milana
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # ПР №9. Следы вредоносного ПО в Linux
 
 ## 1. Что было посажено
